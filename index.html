@@ -9,7 +9,8 @@
 
 <body>
     <h1>Hello there, please login in to continue.</h1>
-    <form action="homepage.html" method="get">
+
+    <form name="Signin" action="homepage.html" method="get">
         <div>
             <label for="username">Username</label>
             <input type="text" name="Username" id="username" placeholder="Username/E-Mail" required="">
@@ -19,9 +20,9 @@
         <input type="submit">
     </form>
 
-    <h3>Or Signup</h3>
+    <h1>Or Signup</h1>
 
-    <form action="" method="post">
+    <form name="Signup" action="" method="post">
         <div>
             <label for="fName">First Name:</label>
             <input type="text" id="fName" placeholder="First Name">
@@ -29,7 +30,6 @@
             <input type="text" id="lName" placeholder="Last Name">
         </div>
         <div>
-
         </div>
         <label>Gender:</label>
         <input type="radio" name="gender" id="male">
@@ -37,32 +37,27 @@
         <input type="radio" name="gender" id="female">
         <label for="female">Female</label>
         </div>
-
         <div>
             <label for="email">E-Mail:</label>
             <input type="email" name="Email" id="email" placeholder="E-Mail" required="">
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" placeholder="Password" required>
         </div>
-
         <div>
             <label>
-            Birth date:
-            <input type="date" name="DOB" value="DOB">
-        </label>
+                Birth date:
+                <input type="date" name="DOB" value="DOB">
+            </label>
         </div>
-
         <div>
             <label>
-            Agreed to the Terms and Conditions
-            <input type="checkbox" name="accept">
-          </label>
+                Agreed to the Terms and Conditions
+                <input type="checkbox" name="accept">
+            </label>
         </div>
-
         <input type="submit">
-
-
     </form>
+
 </body>
 
 </html>
