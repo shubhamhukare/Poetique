@@ -8,56 +8,72 @@
 </head>
 
 <body>
-    <h1>Hello there, please login in to continue.</h1>
-
-    <form name="Signin" action="homepage.html" method="get">
-        <div>
-            <label for="username">Username</label>
-            <input type="text" name="Username" id="username" placeholder="Username/E-Mail" required="">
-            <label for="password">Password</label>
-            <input type="password" name="" id="pass" placeholder="Password" required="">
-        </div>
-        <input type="submit">
-    </form>
-
-    <h1>Or Signup</h1>
-
-    <form name="Signup" action="" method="post">
-        <div>
-            <label for="fName">First Name:</label>
-            <input type="text" id="fName" placeholder="First Name">
-            <label for="lName">Last Name:</label>
-            <input type="text" id="lName" placeholder="Last Name">
-        </div>
-        <div>
-        </div>
-        <label>Gender:</label>
-        <input type="radio" name="gender" id="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female">
-        <label for="female">Female</label>
-        </div>
-        <div>
-            <label for="email">E-Mail:</label>
-            <input type="email" name="Email" id="email" placeholder="E-Mail" required="">
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="Password" required>
-        </div>
-        <div>
-            <label>
-                Birth date:
-                <input type="date" name="DOB" value="DOB">
-            </label>
-        </div>
-        <div>
-            <label>
-                Agreed to the Terms and Conditions
-                <input type="checkbox" name="accept">
-            </label>
-        </div>
-        <input type="submit">
-    </form>
-
+    <div class="Signin">
+        <h1>Hello there, please login in to continue.</h1>
+        <form id="Signin" action="homepage.html" method="get">
+            <div>
+                <div>
+                    <label for="username">Username: </label>
+                    <input type="text" name="Username" id="username" placeholder="Username/E-Mail" required="">
+                </div>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" name="" id="pass" placeholder="Password" required="">
+                </div>
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="Signup">
+        <h1>Or Signup</h1>
+        <form id="Signup" action="" method="post">
+            <div>
+               <div> 
+                <label for="fName">First Name: </label>
+                    <input type="text" id="fName" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="lName">Last Name: </label>
+                    <input type="text" id="lName" placeholder="Last Name">
+                </div>
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male"> Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female"> Female</label>
+            </div>
+            <div>
+                <div>
+                    <label for="email">E-Mail: </label>
+                    <input type="email" name="Email" id="email" placeholder="E-Mail" required="">
+                </div>
+                <div>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" placeholder="Password" required="">
+                </div>
+                <div>
+                    <label for="confpass">Confirm Password: </label>
+                    <input type="password" name="confpass" id="confpass" placeholder="Password" required="">
+                </div
+>
+            </div>
+            <div>
+                <label>
+                    Birth date:
+                    <input type="date" name="DOB" value="DOB">
+                </label>
+            </div>
+            <div>
+                <label>
+                    Agreed to the Terms and Conditions
+                    <input type="checkbox" name="accept">
+                </label>
+            </div>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 
 </html>

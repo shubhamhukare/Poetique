@@ -1,19 +1,39 @@
 body {
-	margin: 20px 20px 20px 20px;
-    background-color: #333333;
+    font-family: sans-serif;
+    background-image: url(../Images/5.1.png);
+    background-position: top;
     color: #dddddd;
     line-height: 20px;
 }
 
-input:focus {
+input {
     padding: 3px 3px;
     margin: 5px 0;
-    border: 1px none #dddddd;
-    background-color: #333333;
-    color: #dddddd;
+    border: 1px solid #dddddd;
+    color: #333333;
     border-radius: 4px;
 }
 
-form[name="Signin"] {
+.Signin {
+    border: 1px none #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    margin: -100px;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
 
+.Signup {
+    border: 1px none #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: -100px;
+    text-align: center;
+    float: left;
+    width: 50%;
 }
